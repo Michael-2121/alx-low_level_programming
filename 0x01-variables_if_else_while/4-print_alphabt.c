@@ -6,19 +6,12 @@
 int main(void)
 {
 
-	char x = 'a';
-
-	char y = 'A';
-
+	char x;
+	x = 'a';
 	while
 		(x <= 'z') {
 			putchar(x);
 			x++;
-		}
-	while
-		(y <= 'Z') {
-			putchar (y);
-			y++;
 		}
 	putchar('\n');
 	return (0);
