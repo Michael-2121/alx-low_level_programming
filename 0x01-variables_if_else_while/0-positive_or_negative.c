@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - Assign a random number to the variable and check if n is +ve or -ve
