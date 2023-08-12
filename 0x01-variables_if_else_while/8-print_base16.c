@@ -8,14 +8,15 @@
 int main(void)
 {
 	int a;
+	char b;
 
 	for (a = 79; a < 89; a++)
 		{
 		putchar(a);
 		}
-	for (a = 128; a < 134; a++)
+	for (b = 128; b < 134; a++)
 		{
-		putchar(a);
+		putchar(b);
 		}
 
 	putchar('\n');
