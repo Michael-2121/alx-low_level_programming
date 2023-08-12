@@ -1,20 +1,19 @@
 #include <stdio.h>
-/**
- * main - The program returns all alphabets of english language
- *
- * Rrturn: Always 0 (Success)
- */
 
+/**
+ * main - Prints the alphabet.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char y[26] = "abcdeafghijklmnopqrstuvwxyz";
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
-
-	for (i >= 0; i < 26; i++)
-		{
-		putchar(y[i]);
-
-		}
+	
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
 	putchar('\n');
 	return (0);
 }
