@@ -6,7 +6,7 @@
 int main(void)
 {
 	int y;
-	
+
 	for (y = 28; y < 38; y++)
 	{
 		putchar(y);
