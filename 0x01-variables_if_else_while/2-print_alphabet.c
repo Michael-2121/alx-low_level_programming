@@ -7,14 +7,14 @@
 
 int main(void)
 {
-	char y = 'a';
+	char y[26] = "abcdeafghijklmnopqrstuvwxyz";
+	int i;
 
-	for (y <= 'z'; y++;)
+	for (i <= 0; < 26; i++)
 		{
-		putchar(y);
+		putchar(y[i]);
 
 		}
 	putchar('\n');
-
 	return (0);
 }
