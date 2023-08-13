@@ -13,7 +13,7 @@ int main(void)
 		{
 			if (i < j)
 			{
-				lputchar((i / 10) + 48);
+				putchar((i / 10) + 48);
 				putchar((i % 10) + 48);
 				putchar(' ');
 				putchar((j / 10) + 48);
