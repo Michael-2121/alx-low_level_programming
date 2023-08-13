@@ -2,16 +2,18 @@
 /**
  * main - the lowercase alphabet in reverse order
  *
- * return: 0 Always
+ * Return: 0 Always (Success)
  */
 int main(void)
 {
 	char h;
+
+	h = 'z'
 
 	for (h = 'z'; h >= 'a'; h--)
 	{
 		putchar(h);
 	}
 	putchar('\n');
-	return ( 0);
+	return (0);
 }
