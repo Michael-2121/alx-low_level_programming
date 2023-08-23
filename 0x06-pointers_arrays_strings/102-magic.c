@@ -32,7 +32,7 @@ int main(void)
 
    */
 
-  *(p + 5) = 98;
+  a[2] = 98;
 
   /* ...so that this prints 98\n */
 
