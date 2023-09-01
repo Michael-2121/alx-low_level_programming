@@ -1,13 +1,13 @@
 #include "main.h"
-void _puts(char *str)
-#include<stdio.h>
 /**
- * main - This function prints out a string statement
- * @*str: Character variable
- * Return: Always 0 (Success)
+ * _puts - prints a string, followed by a new line, to stdout
+ * @str: string to print
  */
-int main(void)
+void _puts(char *str)
 {
-	puts("\"Skills in programming is developed by practicing");
-	return (0);
+	while (*str != '\0')
+	{
+		_putchar(*str++);
+	}
+	_putchar('\n');
 }
